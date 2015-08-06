@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]" target='_blank'><img src="[field:id function='getsofticon(@me)'/]" width="20" height="20"></a><a href="[field:arcurl/]" title="[field:fulltitle/]" class="update-name" target='_blank'>[field:title/]</a>                                <span><strong>[field:pubdate function="MyDate('m-d',@me)"/]</strong></span></li>

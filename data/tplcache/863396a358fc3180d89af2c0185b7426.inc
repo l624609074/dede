@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]" target="_blank"><img src="[field:id function='getsofticon(@me)'/]" alt="" /></a><p><a target='_blank' href="[field:arcurl/]">[field:title/]</a></p>        <p>[field:infos/]</p>    </li>

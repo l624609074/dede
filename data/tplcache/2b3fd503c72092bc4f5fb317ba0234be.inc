@@ -1,0 +1,1 @@
+<a href="[field:id runphp='yes'] $id=@me;@me='';$url=GetOneArchive($id);@me=$url['arcurl'];[/field:id]" target="_blank">[field:title function="cn_substr(@me,20)"/]</a>

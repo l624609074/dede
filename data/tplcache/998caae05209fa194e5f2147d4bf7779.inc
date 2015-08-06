@@ -1,0 +1,1 @@
+<li><img src="[field:aid function='getsofticon(@me)'/]" width="20" height="20"> <a target='_blank' href="[field:aid runphp='yes'] $id=@me;@me='';$url=GetOneArchive($id);@me=$url['arcurl'];[/field:aid]">[field:title function="cn_substr(@me,12)"/]</a></li>

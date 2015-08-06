@@ -1,0 +1,124 @@
+{dede:include filename="header.htm"/}
+
+<div id="mainMenu">	
+	<div id="menuBox">
+    	<ul>
+        	<li class="sel"><a href="{dede:global.cfg_indexurl/}">首 页<span>Home</span></a></li>
+     
+			
+			{dede:channelartlist typeid='top'   typeid ='2,3,4,5,6' row='8'} 
+        	
+			<li>
+				<a href="{dede:field name='typeurl'/}" >
+					{dede:field name='typename'/}
+				
+				</a>
+				
+            	<div class="subMenu fix-png">
+				{dede:channel type='son' noself='yes'}
+				
+                
+						<a href="[field:typelink/]">[field:typename/]</a>
+                
+				
+				
+            
+			
+				{/dede:channel}
+				</div>
+				
+			</li>
+     
+        {/dede:channelartlist}
+		
+		
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+	$(function(){
+        $("#mainMenu ul li").eq(main_menu).addClass("sel").siblings().removeClass("sel");		
+		
+		//头部导航动画
+		$("#menuBox ul li").append("<span class='hover'></span>");
+        $("#menuBox ul li").hover(function(){
+            var span=$(this).find(".hover");	
+            var subMenu=$(this).find(".subMenu");			
+			span.height(44);
+			if(!$(this).hasClass("sel")){	
+            	span.stop(true,true).slideDown(300,"jswing");
+			}
+			subMenu.stop(true,true).fadeIn(600,"jswing");
+            $(this).children("a").css("color","#2a90d0");	
+            $(this).find("span").css("color","#2a90d0");	
+        },function(){
+            var span=$(this).children(".hover");				
+            var subMenu=$(this).find(".subMenu");		
+			subMenu.stop(true,true).fadeOut(300,"jswing");
+           	span.stop(true,true).slideUp(600,"jswing");				
+            if(!$(this).hasClass("sel")){			
+                $(this).children("a").css("color","#191919");	
+             	$(this).find("span").css("color","#9d9d9d");				
+            }
+        });		
+	})
+</script>
+
+
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/lrtk.css" type="text/css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/JQuery.js"></script>
+
+
+<div class="banner_index">
+
+    <ul  class="banner_wrap" id="banner_index">
+      
+      <li><img src="{dede:global.cfg_templets_skin/}/images/2014179493774243.jpg" height="335" width="1000/"></li>
+      
+
+</div>
+
+<script type="text/javascript">
+var ShowPre1 = new ShowPre({box:"banner_index",Pre:"banner_index_pre",Next:"banner_index_next",numIco:"index_numIco",loop:1,auto:1});
+</script>
+<div id="index_numIco" class="indexBanner_num"></div>
+
+<div id="indexMode">
+	<div id="iAbout" class="imBox">
+    	<div class="imTitle"><span class="cn">企业介绍</span><span class="en">About Us</span><a href="about.htm" class="more"><img src="images/more.gif" alt=""></a></div>
+        <div class="iACont">
+        	<p class="pic"><img src="images/iAbout.jpg" alt="" height="125" width="145"></p>
+           &nbsp;&nbsp;&nbsp;&nbsp; 厦门汉纳汽车电子有限公司是一家民营高科技企业，创建于2002年。公司坐落于风姿绰约的“海上花园”—厦门经济特区，致力于汽车电子产品的研发、制造和销售。<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; 
+公司成立以来，以技术创新为核心，以优质服务为保障，逐渐成为行业中的知名企业。公司建立了强大的科研和生产制造能力，自主研制的汽车CAN总线产品先后
+在国内各大客车厂批量装车使用，替代进口，打破了同类产品外国公司的技术垄断，达到了国内领先，国际先进的技术水平。
+        </div>
+    </div>
+<div id="iNews" class="imBox">
+    	<div class="imTitle"><span class="cn">资讯中心</span><span class="en">News Center</span><a href="news.htm" class="more"><img src="images/more.gif" alt=""></a></div>
+        
+    	<div class="iNCont">
+        	<p class="pic"><a href="http://www.xmhns.com/newsView.asp?id=16" target="_blank"><img src="images/news.jpg" height="125" width="145"></a></p>
+            <ul class="right">
+            	<li class="title"><a href="http://www.xmhns.com/newsView.asp?id=16" target="_blank">济源市540余辆营运车辆安装“千里眼”</a></li>
+                <li class="info">为进一步加强全市道路运输安全监管工作，济源市决定对道路运输车辆安装 “车辆卫星定位装置”。...<a href="http://www.xmhns.com/newsView.asp?id=16" target="_blank" class="more">更多&gt;&gt;</a></li>
+            </ul>
+        </div>
+        
+        
+        <ul class="list">
+        	
+        	<li><span>[2013-12-5]</span><a href="http://www.xmhns.com/newsView.asp?id=15" target="_blank">汽车电子化控制：汽车仪表时代将走向何方？</a></li>
+            
+        	<li><span>[2013-12-5]</span><a href="http://www.xmhns.com/newsView.asp?id=14" target="_blank">基于CAN总线技术的汽车仪表软件实现方案</a></li>
+            
+        	<li><span>[2013-12-5]</span><a href="http://www.xmhns.com/newsView.asp?id=13" target="_blank">我国汽车仪表技术发展情况概要</a></li>
+            
+        	<li><span>[2013-12-5]</span><a href="http://www.xmhns.com/newsView.asp?id=12" target="_blank">商务部八大举措助推汽车产业国际化</a></li>
+            
+        </ul>
+    </div>
+  
+</div>
+
+{dede:include filename="footer.htm"/}

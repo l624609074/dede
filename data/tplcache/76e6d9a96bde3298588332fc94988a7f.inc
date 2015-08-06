@@ -1,0 +1,1 @@
+<li><span[field:global.autoindex runphp='yes']if (@me <= 3)@me = ' class="top3"';else @me = '';[/field:global.autoindex]>[field:global.autoindex/]</span><a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank">[field:title/]</a></li>

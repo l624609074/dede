@@ -1,0 +1,50 @@
+
+
+
+/*==================iHotNews=====================*/
+#iHotNews{background:url(../images/iHotNews.jpg) no-repeat; border:1px solid #d1d1d1; height:30px; width:1000px; margin:0 auto; background-color:#fff; color:#616161; overflow:hidden;}
+#iHotNews a{color:#616161;}
+#iHotNews a:hover{color:#ef7512; text-decoration:underline;}
+#iHotNews ul{width:760px; margin-left:150px;}
+#iHotNews ul li{height:30px; line-height:30px; overflow:hidden;}
+#iHotNews ul li span{float:right;}
+
+
+/*==================indexMode=====================*/
+#indexMode{width:1000px; margin:10px auto 0; position:relative;height:300px;}
+#indexMode .imBox{position:absolute; width:450px; height:260px; border-radius:15px; border:1px solid #dcdcdc; background-color:#fff; overflow:hidden; padding:10px 20px;}
+#indexMode .imBox .imTitle{height:25px; line-height:25px; border-bottom:1px solid #e6e6e6; text-indent:5px; position:relative; margin-bottom:10px;}
+#indexMode .imBox .imTitle .cn{font-family:"Î¢ÈíÑÅºÚ"; font-size:16px; font-weight:bold; color:#2c9be4;}
+#indexMode .imBox .imTitle .en{font-family:Arial; font-size:16px;  color:#818181; margin-left:5px;}
+#indexMode .imBox .imTitle .more{ position:absolute; top:10px; right:5px;}
+
+#iAbout{left:0; top:0;}
+#iNews{right:0; top:0;}
+
+#iAbout .iACont{width:430px; height:200px; border:1px solid #e6e6e6; background-color:#f3f3f3; overflow:hidden; line-height:22px; padding:10px;}
+#iAbout .iACont .pic{float:left; padding:0; margin:0; overflow:hidden; width:145px; height:125px; margin-right:15px; border:1px solid #c0c1c4;}
+
+#iNews .iNCont{width:430px; height:125px; overflow:hidden;}
+#iNews .iNCont .pic{float:left; padding:0; margin:0; overflow:hidden; width:145px; height:125px; margin-right:15px; border:1px solid #c0c1c4;}
+#iNews .iNCont .right{float:left; width:237px; height:125px; overflow:hidden;}
+#iNews .iNCont .right .title{color:#2187d4; line-height:18px; height:40px; font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; overflow:hidden;}
+#iNews .iNCont .right .title a{color:#2187d4;}
+#iNews .iNCont .right .info{height:80px; line-height:20px; overflow:hidden; margin-top:5px;}
+#iNews .iNCont .right .info .more{color:#ec5001;}
+
+#iNews .list{margin-top:8px;}
+#iNews .list li{height:23px; line-height:23px; overflow:hidden; border-bottom:1px dotted #616161; background:url(../images/menuArro.gif) no-repeat 0 10px; text-indent:10px;}
+#iNews .list li span{float:right; }
+
+
+
+
+
+
+
+
+
+
+
+
+
